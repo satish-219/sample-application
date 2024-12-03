@@ -21,7 +21,7 @@ phases:
   post_build:
     commands:
       - echo "Deploying to S3"
-      - aws s3 cp s3://my-applicatiion/artifact s3://sanju219
+      - aws s3 cp s3://my-applicatiion/artifact s3://buildspec-file
       - echo "Deployment completed successfully"
 
 artifacts:
