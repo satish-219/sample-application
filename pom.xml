@@ -1,0 +1,22 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.example</groupId>
+    <artifactId>sample-java-app</artifactId>
+    <version>1.0.0</version>
+    <packaging>jar</packaging>
+
+    <name>Sample Java Application</name>
+    <description>A simple Java application for AWS CodeBuild</description>
+    <url>https://example.com</url>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source> <!-- Java version -->
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+        <!-- Add your dependencies here (e.g., Spring, Jackson, etc.) -->
+    </dependencies>
+</project>
+
