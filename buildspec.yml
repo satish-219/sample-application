@@ -21,7 +21,7 @@ phases:
   post_build:
     commands:
       - echo "Deploying to S3"
-      - aws s3 cp target/sample-java-app-1.0.0.jar s3://my-application/sample-java-app-1.0.0.jar
+      - aws s3 cp ./target s3://my-application
       - echo "Deployment completed successfully"
 
 artifacts:
